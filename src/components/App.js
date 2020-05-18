@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-// React Router imports
+// 👉 STEP 2 - React Router imports
 
 // Components used for the different routes
 import Home from './Home'
@@ -26,11 +26,11 @@ export default function App(props) {
       <nav>
         <h1 className='store-header'>Emily&apos;s Trinkets</h1>
         <div className='nav-links'>
-          {/* Make Links to navigate us Home (`/`) and Shop (`/items-list`) */}
+          {/* 👉 STEP 3 - Make Links to navigate us Home (`/`) and Shop (`/items-list`) */}
         </div>
       </nav>
 
-      {/* Build a Switch with a Route for each of the components imported at the top */}
+      {/* 👉 STEP 4 - Build a Switch with a Route for each of the components imported at the top */}
     </div>
   )
 }

@@ -2,8 +2,9 @@ import React from 'react'
 // We'll need React Router's own version of the History API
 
 export default function Home() {
-  // Build a click handler that will imperatively
-  // navigate us to <website base URL>/item-list
+  // 👉 STEP 5 - Build a click handler that will imperatively
+  // navigate us to <website base URL>/items-list
+
   const routeToShop = () => {
 
   }
