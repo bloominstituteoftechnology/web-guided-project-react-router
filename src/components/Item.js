@@ -1,8 +1,7 @@
 import React from 'react'
 // We'll need quite a few imports from react-router-dom
 
-import ItemDescription from './ItemDescription'
-import ItemShipping from './ItemShipping'
+import ItemDetails from './ItemDetails'
 
 export default function Item(props) {
   // We get ALL items through props. We'll use the URL to find out which item is the one to show.
@@ -31,7 +30,7 @@ export default function Item(props) {
       </nav>
 
       {/* 👉 STEP 9 - Here go the Routes for `<current path>/shipping` and `<current path>/description` */}
-      {/* These Routes should render <ItemShipping /> and <ItemDescription /> respectively */}
+      {/* These Routes should render <ItemDetails /> */}
 
       {/* 👉 STEP 10 - Shorten paths and urls with `useRouteMatch` hook */}
     </div>
