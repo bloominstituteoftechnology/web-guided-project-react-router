@@ -1,4 +1,4 @@
-import React from 'react' // with React 17 this import will be gone
+import React from 'react'
 // We'll need React Router's own version of the History API
 
 export default function Home() {

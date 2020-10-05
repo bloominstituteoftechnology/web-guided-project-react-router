@@ -1,4 +1,4 @@
-import React from 'react' // with React 17 this import will be gone
+import React from 'react'
 import { render } from 'react-dom'
 
 // Importing the top-level component
