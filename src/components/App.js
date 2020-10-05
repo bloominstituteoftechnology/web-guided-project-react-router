@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-// 👉 STEP 2 - React Router imports
+import React, { useState, useEffect } from 'react' // with React 17 this import will be gone
+// 👉 STEP 2 - React Router imports (Route, Link and Switch)
 
 // Components used for the different routes
 import Home from './Home'

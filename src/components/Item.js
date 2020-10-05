@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' // with React 17 this import will be gone
 // We'll need quite a few imports from react-router-dom
 
 import ItemDetails from './ItemDetails'
