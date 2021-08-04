@@ -1,12 +1,16 @@
 import React from 'react'
 // We'll need React Router's own version of the History API
 
+import { Link, useHistory } from 'react-router-dom'
+
 export default function Home() {
   // 👉 STEP 5 - Build a click handler that will imperatively
   // navigate us to <website base URL>/items-list
 
-  const routeToShop = () => {
+  const history = useHistory()
 
+  const routeToShop = () => {
+    history.push('/items-list')
   }
 
   return (
@@ -16,12 +20,13 @@ export default function Home() {
         src='https://source.unsplash.com/F6-U5fGAOik'
         alt=''
       />
+      <Link to="/items-list">
       <button
-        onClick={routeToShop}
         className='md-button shop-button'
       >
         Shop now!
       </button>
+      </Link>
     </div>
   )
 }

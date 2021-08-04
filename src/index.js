@@ -9,8 +9,15 @@ import './styles.less'
 
 // 👉 STEP 1 - Import React Router's Router
 
+// import and rename the named export
+import { BrowserRouter } from 'react-router-dom'
+
 render(
   // Wrap the <App /> in a provider
-  <App />
+  // That way the provider can pass props down to all the component children
+  // Just like we did with styled components
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   , document.querySelector('#root')
 )
