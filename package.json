@@ -19,10 +19,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LambdaSchool/web-guided-project-react-router.git"
+    "url": "git+https://github.com/BloomInstituteOfTechnology/web-guided-project-react-router.git"
   },
   "bugs": {
-    "url": "https://github.com/LambdaSchool/web-guided-project-react-router/issues"
+    "url": "https://github.com/BloomInstituteOfTechnology/web-guided-project-react-router/issues"
   },
-  "homepage": "https://github.com/LambdaSchool/web-guided-project-react-router#readme"
+  "homepage": "https://github.com/BloomInstituteOfTechnology/web-guided-project-react-router#readme"
 }
