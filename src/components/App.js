@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 // 👉 STEP 2 - React Router imports (Route, Link and Switch)
-import { Link } from "react-router-dom";
+import { Link, Route, Switch } from "react-router-dom";
 // Link aka ahref
 
 // Components used for the different routes
@@ -33,8 +33,27 @@ export default function App(props) {
           {/* 👉 STEP 3 - Make Links to navigate us Home (`/`) and Shop (`/items-list`) */}
         </div>
       </nav>
-
+      <Switch>
+        <Route path={"/items-list/:itemID"}>
+          <Item />
+        </Route>
+        <Route path="/items-list">
+          <ItemsList items={stock}/>
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
       {/* 👉 STEP 4 - Build a Switch with a Route for each of the components imported at the top */}
+
     </div>
   )
 }
+
+/**
+ * switch (varName) {
+ *   case: "blah":
+ *      doSomething();
+ *      break;
+ * }
+ */
