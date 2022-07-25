@@ -16,7 +16,6 @@ export default function Item(props) {
 
   const { itemID } = useParams();
   const { url, path } = useRouteMatch();
-  console.log(url, path);
 
   // 👉 STEP 7 - We need to pull item from items, using a parameter in the URL (:itemID)
   // Beware! The ids are integers, whereas URL parameters are strings.
