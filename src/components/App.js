@@ -35,7 +35,7 @@ export default function App(props) {
       </nav>
       <Switch>
         <Route path={"/items-list/:itemID"}>
-          <Item />
+          <Item items={stock} />
         </Route>
         <Route path="/items-list">
           <ItemsList items={stock}/>
@@ -45,7 +45,6 @@ export default function App(props) {
         </Route>
       </Switch>
       {/* 👉 STEP 4 - Build a Switch with a Route for each of the components imported at the top */}
-
     </div>
   )
 }
