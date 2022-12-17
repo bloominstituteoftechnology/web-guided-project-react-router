@@ -16,6 +16,8 @@ export default function Item(props) {
 const { items } = props
 
 
+if (!items.length) return 'Getting your item...'
+
   // 👉 STEP 7 - We need to pull item from items, using a parameter in the URL (:itemID)
   // Beware! The ids are integers, whereas URL parameters are strings.
   // Beware! The JSX is expecting 'item' to exist instantly!
@@ -23,11 +25,11 @@ const { items } = props
 
   const { itemID } = useParams()
   const item = items.find(item => item.id == itemID)
+  console.log(itemID);
 
   const { url, path } = useRouteMatch()
 
-  
-  if (!items.length) return 'Getting your item...'
+
 
   return (
     <div className='item-wrapper'>
@@ -49,15 +51,14 @@ const { items } = props
 
       {/* 👉 STEP 9 - Here go the Routes for `<current path>/shipping` and `<current path>/description` */}
       {/* These Routes should render <ItemDetails /> */}
-      <Switch>
       <Route path={`${path}/shipping`}>
         <ItemDetails text={item.shipping} />
       </Route>
       <Route path={`${path}/description`}>
         <ItemDetails text={item.description} />
       </Route>
-      </Switch>
       {/* 👉 STEP 10 - Shorten paths and urls with `useRouteMatch` hook */}
     </div>
   )
 }
+
