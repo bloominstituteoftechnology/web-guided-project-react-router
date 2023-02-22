@@ -9,6 +9,8 @@
 
 ## Following along
 
+See the designs for each URL inside the `design-files` folder.
+
 There are nine steps to complete this project.
 
 Perform a global search for the term 👉 STEP
