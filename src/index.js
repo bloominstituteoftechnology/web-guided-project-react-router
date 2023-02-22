@@ -1,16 +1,16 @@
-import React from 'react'
-import { render } from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
 // Importing the top-level component
 import App from './components/App'
 
 // Importing the styles
-import './styles.less'
+import './styles.css'
 
-// 👉 STEP 1 - Import React Router's Router
+// 👉 STEP 1 - Import Router and wrap the app
 
-render(
-  // Wrap the <App /> in a provider
-  <App />
-  , document.querySelector('#root')
-)
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
+    <App />
+);

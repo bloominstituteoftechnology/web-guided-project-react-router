@@ -1,10 +1,8 @@
-import React from 'react'
-// We'll need React Router's own version of the History API
+// We'll need React Router's hook to navigate around
 
 export default function Home() {
-  // 👉 STEP 5 - Build a click handler that will imperatively
-  // navigate us to <website base URL>/items-list
 
+  // 👉 STEP 5 - Build a click handler that will imperatively navigate us to /items-list
   const routeToShop = () => {
 
   }
@@ -14,12 +12,9 @@ export default function Home() {
       <img
         className='home-image'
         src='https://source.unsplash.com/F6-U5fGAOik'
-        alt=''
+        alt='store front'
       />
-      <button
-        onClick={routeToShop}
-        className='md-button shop-button'
-      >
+      <button onClick={routeToShop} className='md-button shop-button'>
         Shop now!
       </button>
     </div>

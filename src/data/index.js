@@ -3,7 +3,7 @@
 export default [
   {
     name: 'Reel Viewer',
-    id: 0,
+    id: 1,
     price: 29.95,
     imageUrl:
       'https://www.uncommongoods.com/images/items/47400/47435_1_360px.jpg',
@@ -14,7 +14,7 @@ export default [
   },
   {
     name: 'Mathematical Glasses - Set of 4',
-    id: 1,
+    id: 2,
     price: 38.0,
     imageUrl:
       'https://www.uncommongoods.com/images/items/46700/46720_1_360px.jpg',
@@ -25,7 +25,7 @@ export default [
   },
   {
     name: 'Shakespearean Insults Chart',
-    id: 2,
+    id: 3,
     price: 25.49,
     imageUrl:
       'https://www.uncommongoods.com/images/items/27300/27303_1_360px.jpg',
@@ -36,7 +36,7 @@ export default [
   },
   {
     name: 'Yoga Joes',
-    id: 3,
+    id: 4,
     price: 25.0,
     imageUrl:
       'https://www.uncommongoods.com/images/items/43200/43212_1_360px.jpg',
@@ -47,7 +47,7 @@ export default [
   },
   {
     name: 'Dinosaur Taco Holders',
-    id: 4,
+    id: 5,
     price: 12.0,
     imageUrl:
       'https://www.uncommongoods.com/images/items/45700/45759_1_360px.jpg',
@@ -58,7 +58,7 @@ export default [
   },
   {
     name: 'Color Changing Cinema Lightbox',
-    id: 5,
+    id: 6,
     price: 49.95,
     imageUrl:
       'https://www.uncommongoods.com/images/items/46600/46667_1_360px.jpg',
@@ -69,7 +69,7 @@ export default [
   },
   {
     name: 'Avocado Tree Starter Kit - Set of 3',
-    id: 6,
+    id: 7,
     price: 20.0,
     imageUrl:
       'https://www.uncommongoods.com/images/items/40800/40804_1_360px.jpg',
@@ -80,7 +80,7 @@ export default [
   },
   {
     name: 'Hero Bookend',
-    id: 7,
+    id: 8,
     price: 19.95,
     imageUrl:
       'https://www.uncommongoods.com/images/items/47500/47500_1_360px.jpg',
@@ -91,7 +91,7 @@ export default [
   },
   {
     name: 'Fishing Pole Campfire Roaster',
-    id: 8,
+    id: 9,
     price: 29.95,
     imageUrl:
       'https://www.uncommongoods.com/images/items/43000/43021_1_360px.jpg',
@@ -102,7 +102,7 @@ export default [
   },
   {
     name: 'Elwood the Unicorn Cereal Bowl',
-    id: 9,
+    id: 10,
     price: 39.95,
     imageUrl:
       'https://www.uncommongoods.com/images/items/25800/25893_1_360px.jpg',
@@ -113,7 +113,7 @@ export default [
   },
   {
     name: 'Spotted Wellies Garden Ducks',
-    id: 10,
+    id: 11,
     price: 19.99,
     imageUrl:
       'https://www.uncommongoods.com/images/items/26500/26530_1_360px.jpg',
@@ -124,7 +124,7 @@ export default [
   },
   {
     name: 'Eye Glasses Holder',
-    id: 11,
+    id: 12,
     price: 15.49,
     imageUrl:
       'https://www.uncommongoods.com/images/items/19000/19079_1_360px.jpg',
